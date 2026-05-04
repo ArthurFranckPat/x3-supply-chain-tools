@@ -25,8 +25,13 @@ skills/         Skills (documentation métier + procédures)
 
 ## Skills
 
-- **mts-order-matching** — Stratégies MTS (contremarque), NOR/MTO (stock + OF algorithmique)
-- **of-feasibility** — Règles faisabilité OF : classification composants, modes/tempos, BOM
+| Skill | Description |
+|-------|-------------|
+| **mts-order-matching** | Stratégies MTS (contremarque), NOR/MTO (stock + OF algorithmique) |
+| **of-feasibility** | Règles faisabilité OF : classification composants, modes/tempos, BOM |
+| **sage-x3-sdata** | Client Sage X3 SData 2.0 : syntaxe where, classes, représentations, pitfalls |
+| **globalprotect-cli-saml** | VPN GlobalProtect SAML/SSO : headless, WSL2, X11, reconnect |
+| **office365-headless-email** | Email Office 365 headless via Power Automate + OneDrive |
 
 ## Prérequis
 
