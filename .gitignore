@@ -1,0 +1,17 @@
+# DuckDB data
+x3_data/
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Secrets
+.env
+credentials/
+
+# IDE
+.vscode/
+.idea/
