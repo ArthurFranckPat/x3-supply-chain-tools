@@ -6,6 +6,7 @@ Scripts et skills pour l'analyse supply chain — Sage X3 + DuckDB.
 
 ```
 scripts/        Scripts Python autonomes
+vpn/            Scripts connexion VPN GlobalProtect
 skills/         Skills (documentation métier + procédures)
 ```
 
@@ -32,3 +33,16 @@ skills/         Skills (documentation métier + procédures)
 - DuckDB (base `/root/x3_data/x3.duckdb`)
 - VPN GlobalProtect (pour sync X3)
 - Sage X3 SData endpoint
+
+## VPN
+
+Scripts de connexion au VPN GlobalProtect (Aereco, SAML Azure AD).
+
+| Script | Description |
+|--------|-------------|
+| `vpn-headless.sh` | VPS headless : Xvfb + noVNC, auth via tunnel SSH |
+| `vpn-reconnect.sh` | Reconnexion auto : détection WSL2/X11, gp-saml-gui |
+| `vpn.sh` | Connexion basique avec cookie SAML |
+| `vpn-connect.sh` | Alias simplifié pour vpn.sh |
+| `watch_vpn.sh` | Surveille tun0 et écrit flag alerte |
+| `wsl-browser-setup.sh` | Configure navigateur Windows pour WSL2 |
